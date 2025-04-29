@@ -1,0 +1,74 @@
+.main1{
+    display: flex;
+    flex-direction: row;
+}
+.flexrow1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 20px;
+}
+.flexcol1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 50px;
+}
+
+.main2{
+    display: flex;
+    flex-direction: column;
+}
+.jus{
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+}
+.cards{
+width: 100px;
+height: 100px;
+background-color: yellowgreen;
+margin: 20px;
+}
+.container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+  }
+  .relative-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+  }
+  .absolute-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+  }
+  .box91 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    z-index: 1;
+  }
+  
+  .box92 {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    z-index: 2;
+  }

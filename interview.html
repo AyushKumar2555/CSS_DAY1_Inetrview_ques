@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./interview.css">
+</head>
+<body>
+    <div class="main">
+        <h1> Ques1:Difference between flex row and column</h1>
+        <p>flex-direction: row (Default)
+            Main axis: Horizontal (left to right).
+            
+            Cross axis: Vertical (top to bottom).
+            
+            Effect: Flex items are laid out in a row, side by side.</p>
+        <div class="main1"> 
+            <h1>flex_row</h1>
+            <div class="flexrow1"></div>
+            <div class="flexrow1"></div>
+            <div class="flexrow1"></div>
+        </div>
+        
+        <div class="main2">
+            <h1>In CSS Flexbox, the flex-direction: column property sets the main axis to vertical. This means that flex items are arranged from top to bottom inside the flex container.</h1> 
+            <h1>flex_col</h1>
+            <div class="flexcol1"></div>
+            <div class="flexcol1"></div>
+            <div class="flexcol1"></div>
+        </div>
+        </div>
+       <h1>Ques2 Explain inline , internal and external stylesheet
+        Inline CSS
+        CSS inside the HTML tag.</h1> 
+        <h1>Ques3:</h1>
+        <h1>Justify-content allows you to do what?</h1>
+        <h3>justify-content allows us to align items of move the items in horizantly (y-axis)</h3>
+     <div class="jus">
+         <div class="cards"></div>
+         <div class="cards"></div>
+         <div class="cards"></div>
+</div>
+
+<h1>Ques4:Difference between absolute and relative positioning</h1>
+<h3>
+    position: relative
+The element is positioned relative to its normal position in the document flow.
+
+It still takes up space in the layout (others don't shift).
+
+You can use top, right, bottom, and left to move it slightly from where it would normally be.
+
+<pre>
+.relative-box {
+position: relative;
+top: 10px;
+left: 20px;
+}</pre>
+<h3>
+    position: absolute
+The element is removed from the normal document flow (other elements behave as if it doesn’t exist).
+
+It is positioned relative to the nearest positioned ancestor (an element with position: relative, absolute, or fixed).
+
+If no such ancestor exists, it is positioned relative to the <html> (the document body).
+<pre>
+.absolute-box {
+position: absolute;
+top: 0;
+right: 0;
+}
+</pre>
+</h3>
+<div class="container">
+    <div class="relative-box">Relative Box</div>
+    <div class="absolute-box">Absolute Box</div>
+  </div>
+  <h1>Ques5:What is the z-index in CSS?</h1>
+    <div class="box91"></div>
+    <div class="box92"></div>
+    <h1>Ques6:What is the difference between padding and margin?</h1>
+    <h3>
+        Padding: Space inside an element, between its content and border. It affects the element’s size 
+    </h3>
+    <h3>
+        Margin: Space outside an element, between its border and other elements. It does not affect the element’s size.
+    </h3>
+</body>
+</html>
